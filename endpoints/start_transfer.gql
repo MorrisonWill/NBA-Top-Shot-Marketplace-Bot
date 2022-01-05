@@ -1,0 +1,6 @@
+mutation CreateMomentTransferRequest($momentID: String!, $momentTitle: String!, $momentImage: String!, $momentFlowID: String!, $receiverDapperID: String!, $redirectURL: String!) {
+  createMomentTransferRequest(input: {momentID: $momentID, momentFlowID: $momentFlowID, momentTitle: $momentTitle, momentImage: $momentImage, receiverDapperID: $receiverDapperID, redirectURL: $redirectURL}) {
+    ID
+    __typename
+  }
+}

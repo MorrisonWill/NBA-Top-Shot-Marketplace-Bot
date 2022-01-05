@@ -1,0 +1,11 @@
+query GetMomentTransferRequest($ID: String!) {
+  getMomentTransferRequest(input: {ID: $ID}) {
+    data {
+      id
+      state
+      invocationIntentID
+      __typename
+    }
+    __typename
+  }
+}

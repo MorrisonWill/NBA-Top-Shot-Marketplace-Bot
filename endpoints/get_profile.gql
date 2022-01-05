@@ -1,0 +1,8 @@
+query GetProfile($id: ID!) {
+    getUserProfile(input: {dapperID: $id}) {
+        publicInfo {
+            dapperID
+            flowAddress
+        }
+    }
+}

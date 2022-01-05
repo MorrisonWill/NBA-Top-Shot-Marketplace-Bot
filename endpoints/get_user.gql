@@ -1,0 +1,8 @@
+DEFAULT_GetUserByUsername($input: getUserProfileByUsernameInput!) {
+  getUserProfileByUsername(input: $input) {
+    publicInfo {
+      dapperID
+      username
+    }
+  }
+}

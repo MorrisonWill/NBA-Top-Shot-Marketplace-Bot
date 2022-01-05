@@ -1,0 +1,3 @@
+mutation ConfirmInvocation($input: ConfirmInvocationInput!) {
+  confirmInvocation(input: $input)
+}
